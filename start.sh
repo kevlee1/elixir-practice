@@ -2,7 +2,7 @@
 
 
 # TODO: Enable this script by removing the above.
-
+cd /home/practice/elixir-practice
 export MIX_ENV=prod
 export PORT=4790
 

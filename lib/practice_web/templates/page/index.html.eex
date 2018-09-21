@@ -28,10 +28,10 @@
     <% end %>
   </div>
   <div class="column">
-    <h2>Palindrome?</h2>
+    <h2>Palindrome</h2>
     <%= form_for @conn, "/palindrome", fn f -> %>
-      <p>Enter String: <%= text_input f, :string %></p>
-      <p><%= submit "Is this a Palindrome?" %></p>
+      <p>Enter String: <%= text_input f, :x %></p>
+      <p><%= submit "Check Palindrome" %></p>
     <% end %>
   </div>
 </div>
